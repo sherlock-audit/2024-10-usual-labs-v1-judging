@@ -89,6 +89,16 @@ https://github.com/sherlock-audit/2024-10-usual-labs-v1/blob/main/pegasus/packag
         }
 ```
 
+
+
+## Discussion
+
+**sherlock-admin2**
+
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/usual-dao/pegasus/pull/1729
+
+
 # Issue H-2: Withdrawal fee for UsualX vault will be mis-calculated. 
 
 Source: https://github.com/sherlock-audit/2024-10-usual-labs-v1-judging/issues/34 
@@ -247,4 +257,14 @@ Modify `UsualX.withdraw()` function similar to the `UsualX.previewWithdraw()` fu
         yieldStorage.totalDeposits -= fee;
     }
 ```
+
+
+
+## Discussion
+
+**sherlock-admin2**
+
+The protocol team fixed this issue in the following PRs/commits:
+https://github.com/usual-dao/pegasus/pull/1760
+
 
